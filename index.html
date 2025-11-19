@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genrobotics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- session 1 -->
+
+    <div class="partone">
+      <header>
+        <div class="logo">
+          <img
+            src="./assets/745b453bad4ced1bf090bb33e5b3109a46de08f1.png"
+            alt="logo"
+          />
+        </div>
+        <div class="contents" id="nav-menu">
+          <li>Solutions</li>
+          <li>Services</li>
+          <li>Resourses</li>
+          <li>News</li>
+          <li>Careers</li>
+        </div>
+        <div class="contactbutton">
+          <button>Contact us</button>
+        </div>
+        <div class="hamburger" id="hamburger">☰</div>
+      </header>
+      <!-- ---------------- -->
+      <div class="heading">
+        <center>
+          <h2>Redefining</h2>
+          <h1>Human Mobility</h1>
+          <p>
+            Our Medical & Mobility division is dedicated to helping people
+            recover faster and regain independence <br />through advanced,
+            human-friendly robotic solutions.
+          </p>
+        </center>
+      </div>
+    </div>
+    <!-- ------------------------------------------- -->
+    <!-- session 2 -->
+    <div class="parttwo">
+      <!-- <img src="./assets/35f7e36b6467cb4f9d21e182cab49e7e284b41b4.png" alt="" /> -->
+      <div class="twocontent">
+        <p>Coming Soon:</p>
+        <h1>The Future of Upper Body Rehabilitation!</h1>
+        <p>
+          We are expanding our horizons to bring you revolutionary technology
+          for upper limb recovery.
+        </p>
+        <button>Book Now & Get Attractive Offers</button>
+      </div>
+    </div>
+    <!-- --------------------- -->
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const menu = document.getElementById("nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("mobile-active");
+      });
+    </script>
+  </body>
+</html>
